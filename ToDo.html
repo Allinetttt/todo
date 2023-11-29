@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>TODO LIST</h1>
+
+      <div class="list-container">
+        <div class="list">
+          <div class="row">Хлеб<button class="btn delete-btn">X</button></div>
+          <div class="row">Масло<button class="btn delete-btn">X</button></div>
+          <div class="row">Соль<button class="btn delete-btn">X</button></div>
+
+        </div>
+
+        <div class="btns-container">
+          <button class="btn" onclick="addItem()">ADD</button>
+          <button class="btn" onclick="clearList()">DELETE</button>
+        </div>
+      </div>
+    </div>
+    <script src="todo.js" > </script>
+  </body>
+</html>

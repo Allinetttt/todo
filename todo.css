@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(33, 130, 152, 0.858);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin-top: 0;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(5, 88, 106)
+}
+.app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 700px;
+}
+.list-container{
+    padding: 0 20px;
+    font-weight: bold;
+    color: rgb(1, 63, 77)
+}
+.list > *{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    padding: 15px 15px;
+    background:  rgb(255, 231, 48);
+    font-size: 0.7rem;
+    border: unset;
+    font-weight: bolder;
+    color:rgb(1, 63, 77);
+    border-radius: 100px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn:hover{
+    color:black;
+    background: rgb(255, 169, 48);
+}
+
+.tick:hover{
+    background: rgb(151, 255, 91);
+}
+
+.delete-btn{
+    padding: 6px 8px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 100px;
+    background: rgb(255, 0, 0);
+    color: white;
+}
+.delete-btn:hover{
+    color: white;
+    background:rgb(178, 7, 7) ; 
+}
+
+.btns-container{
+    margin-top: 25px;
+    display: flex;
+    gap: 80px;
+}
+.btns-container>*{
+    flex: 1 1;
+}
+.row{
+    width: 250px;
+      background-color: rgba(33, 130, 152, 0.592);
+      padding: 10px 10px 10px 10px;
+      margin: 10px;
+      padding: 25px;
+    border-radius: 50px;
+    width: 600px;
+
+}
+
+
